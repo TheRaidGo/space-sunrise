@@ -1,0 +1,38 @@
+- type: soundCollection
+  id: Ark
+  files:
+  - /Uploaded/necosound/nya.ogg
+  - /Uploaded/necosound/nya2.ogg
+  - /Uploaded/necosound/nya3.ogg
+  - /Uploaded/necosound/nyanya.ogg
+  - /Uploaded/necosound/china.ogg
+  - /Uploaded/necosound/jan.ogg
+  - /Uploaded/necosound/bibibi.ogg
+  - /Uploaded/necosound/buubuu.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieNeco
+  name: Неко Арк
+  suffix: Tnkv
+  description: Плюшевая крутышка!
+  components:
+  - type: Sprite
+    state: PlushieArc
+    sprite: /Uploaded/neco/neko.rsi
+  - type: Item
+  - type: EmitSoundOnUse
+    sound:
+      collection: Ark
+  - type: EmitSoundOnLand
+    sound:
+      path: /Uploaded/necosound/kavooo.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      collection: Ark
+  - type: MeleeWeapon
+    soundHit:
+      collection: Ark
+  - type: ItemCooldown
+  - type: UseDelay
+    delay: 2.5    
