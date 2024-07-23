@@ -1,14 +1,14 @@
 - type: soundCollection
   id: Ark
   files:
-  - /Uploaded/necosound/nya.ogg
-  - /Uploaded/necosound/nya2.ogg
-  - /Uploaded/necosound/nya3.ogg
-  - /Uploaded/necosound/nyanya.ogg
-  - /Uploaded/necosound/china.ogg
-  - /Uploaded/necosound/jan.ogg
-  - /Uploaded/necosound/bibibi.ogg
-  - /Uploaded/necosound/buubuu.ogg
+  - /Audio/necosound/nya.ogg
+  - /Audio/necosound/nya2.ogg
+  - /Audio/necosound/nya3.ogg
+  - /Audio/necosound/nyanya.ogg
+  - /Audio/necosound/china.ogg
+  - /Audio/necosound/jan.ogg
+  - /Audio/necosound/bibibi.ogg
+  - /Audio/necosound/buubuu.ogg
 
 - type: entity
   parent: BasePlushie
@@ -19,14 +19,14 @@
   components:
   - type: Sprite
     state: PlushieArc
-    sprite: /Uploaded/neco/neko.rsi
+    sprite: /Textures/neco/neko.rsi
   - type: Item
   - type: EmitSoundOnUse
     sound:
       collection: Ark
   - type: EmitSoundOnLand
     sound:
-      path: /Uploaded/necosound/kavooo.ogg
+      path: /Audio/necosound/kavooo.ogg
   - type: EmitSoundOnActivate
     sound:
       collection: Ark
